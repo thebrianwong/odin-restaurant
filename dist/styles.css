@@ -31,3 +31,12 @@
 .nav-container button {
     flex: auto;
 }
+
+.review {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-container img {
+    height: 250px;
+}
