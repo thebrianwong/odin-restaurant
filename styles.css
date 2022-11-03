@@ -1,3 +1,33 @@
 * {
     border: solid 1px red;
 }
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    width: fit-content;
+}
+
+.header-container img {
+    height: 200px;
+}
+
+.tagline {
+    width: 500px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-container button {
+    flex: auto;
+}
