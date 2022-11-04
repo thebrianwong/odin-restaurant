@@ -40,3 +40,24 @@
 .reviews-container img {
     height: 250px;
 }
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-container,
+.hours-container {
+    text-align: center;
+    white-space: pre-line;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-container p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
