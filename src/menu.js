@@ -25,4 +25,4 @@ const loadMenuComponent = () => {
     `
 }
 
-export { loadMenu }
+export { loadMenuComponent }
