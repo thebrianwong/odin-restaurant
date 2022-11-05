@@ -93,6 +93,22 @@ h1 {
     border: solid 4px #16a7ba;
 }
 
+.nav-container button:hover {
+    cursor: pointer;
+}
+
+.nav-container button:hover:nth-child(odd) {
+    background-color: #3394a1;
+}
+
+.nav-container button:hover:nth-child(even) {
+    background-color: #deaf5d;
+}
+
+.nav-container button:active {
+    box-shadow: inset 0 0 5px #333333;
+}
+
 .review {
     display: flex;
     flex-direction: row;
