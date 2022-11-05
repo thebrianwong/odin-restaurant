@@ -1,4 +1,4 @@
-const displayHomeComponent = () => {
+const initialLoadComponent = () => {
     const content = document.querySelector("#content");
     content.innerHTML = `
         <div class="header-container">
@@ -77,4 +77,4 @@ const displayHomeComponent = () => {
     `
 }
 
-export { displayHomeComponent };
+export { initialLoadComponent };

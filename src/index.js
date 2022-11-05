@@ -1,3 +1,3 @@
-import { displayHomeComponent } from "./home";
+import { initialLoadComponent } from "./initial";
 
-displayHomeComponent();
+initialLoadComponent();
