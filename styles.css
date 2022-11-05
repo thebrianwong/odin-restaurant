@@ -17,7 +17,7 @@ input {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 70%;
 }
 
 #content > * {
@@ -73,6 +73,8 @@ h1 {
 .nav-container button {
     flex: auto;
     color: white;
+    font-size: large;
+    font-weight: 600;
     padding: 5px 0;
     border-radius: 8px;
 }
@@ -122,6 +124,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    line-height: 1.25;
 }
 
 .contact-container,
