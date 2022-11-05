@@ -2,7 +2,7 @@ const initialLoadComponent = () => {
     const content = document.querySelector("#content");
     content.innerHTML = `
         <div class="header-container">
-            <div class="icon"><img src="./logo.PNG" alt="Fuds logo with a fork, spoon, knife, and gun."></div>
+            <div class="icon"><img src="assets/logo.PNG" alt="Fuds logo with a fork, spoon, knife, and gun."></div>
             <div class="tagline">
                 <h1>A JOURNEY IN FOOD-TASTE FROM MOUTH TO TOILET,<br>
                     TRAVELING THE ULTIMATE EXPANSE OF THE GREEKO-JAPO<br>
@@ -29,10 +29,10 @@ const initialLoadComponent = () => {
                             - MysteryGuitarMan
                         </span>
                     </p>
-                    <img src="./review_1.jpg" alt="Sunglasses-wearing man eats a piece of bread.">
+                    <img src="assets/review_1.jpg" alt="Sunglasses-wearing man eats a piece of bread.">
                 </div>
                 <div class="review" id="review-2">
-                    <img src="./review_2.jpg" alt="Two women eating pizza, with an out-of-focus child in the background.">
+                    <img src="assets/review_2.jpg" alt="Two women eating pizza, with an out-of-focus child in the background.">
                     <p>
                         <span class="italics">
                             "When is this gonna to be over?<br>
@@ -56,7 +56,7 @@ const initialLoadComponent = () => {
                             - Utensil Illiterate Yelp Reviewer
                         </span>
                     </p>
-                    <img src="./review_3.jpg" alt="Man having trouble eating steak without using any utensils, just his two bare hands.">
+                    <img src="assets/review_3.jpg" alt="Man having trouble eating steak without using any utensils, just his two bare hands.">
                 </div>
             </div>
         </div>
