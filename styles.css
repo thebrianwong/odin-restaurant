@@ -1,5 +1,11 @@
 :root {
     font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+button,
+input {
+    appearance: none;
 }
 
 * {
@@ -19,11 +25,11 @@
 }
 
 .header-container,
-.nav-container,
 .footer-container,
 #review-1,
 #review-2,
 #review-3 {
+    background-color: white;
     border-style: solid;
     border-width: 8px;
     border-radius: 8px;
@@ -36,6 +42,8 @@
 .header-container {
     display: flex;
     flex-direction: row;
+    padding: 10px;
+    margin-top: 25px;
 }
 
 .icon {
@@ -50,8 +58,12 @@
     flex: auto;
     text-align: right;
     margin-left: 20px;
-    padding-right: 10px;
+    margin-bottom: auto;
     width: 500px;
+}
+
+h1 {
+    margin: 15px 0 0;
 }
 
 .nav-container {
@@ -60,6 +72,23 @@
 
 .nav-container button {
     flex: auto;
+    color: white;
+    padding: 5px 0;
+    border-radius: 8px;
+}
+
+.nav-container button:nth-child(-n+3) {
+    margin-right: 5px;
+}
+
+.nav-container button:nth-child(odd) {
+    background-color: #16a7ba;
+    border: solid 4px #f7af36;
+}
+
+.nav-container button:nth-child(even) {
+    background-color: #f7af36;
+    border: solid 4px #16a7ba;
 }
 
 .review {
