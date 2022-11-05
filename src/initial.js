@@ -10,10 +10,10 @@ const initialLoadComponent = () => {
             </div>
         </div>
         <nav class="nav-container">
-            <button class="nav-button">Home</button>
-            <button class="nav-button">Menu</button>
-            <button class="nav-button">Apply</button>
-            <button class="nav-button">Credits</button>
+            <button class="nav-button" id="home-button">HOME</button>
+            <button class="nav-button" id="menu-button">MENU</button>
+            <button class="nav-button" id="apply-button">APPLY</button>
+            <button class="nav-button" id="credits-button">CREDITS</button>
         </nav>
         <div class="main-content">
             <div class="title"><h2>HOME</h2></div>
