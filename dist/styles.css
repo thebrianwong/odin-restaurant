@@ -136,6 +136,15 @@ h1 {
     margin-bottom: 25px;
 }
 
+#review-1 p,
+#review-3 p {
+    margin-right: 15px;
+}
+
+#review-2 p {
+    margin-left: 15px;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
