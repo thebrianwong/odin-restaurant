@@ -121,10 +121,20 @@ h1 {
 
 .review p {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 15px 85px;
     height: auto;
     width: 100%;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .review img {
