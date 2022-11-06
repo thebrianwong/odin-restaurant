@@ -2,6 +2,7 @@ import { initialLoadComponent } from "./initial";
 import { loadHomeComponent } from "./home";
 import { loadMenuComponent } from "./menu";
 import { loadApplyComponent } from "./apply";
+import { loadCreditsComponent } from "./credits";
 
 initialLoadComponent();
 
@@ -20,6 +21,12 @@ const addApplyButtonClicker = () => {
     applyButton.addEventListener("click", loadApplyComponent);
 }
 
+const addCreditsButtonClicker = () => {
+    const creditsButton = document.querySelector("#credits-button");
+    creditsButton.addEventListener("click", loadCreditsComponent);
+}
+
 addHomeButtonClicker();
 addMenuButtonClicker();
 addApplyButtonClicker();
+addCreditsButtonClicker();
