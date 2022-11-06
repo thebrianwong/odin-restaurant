@@ -1,7 +1,11 @@
 const loadMenuComponent = () => {
     const mainContent = document.querySelector(".main-content");
     mainContent.innerHTML = `
-        <div class="title"><h2>MENU</h2></div>
+        <div class="title">
+            <h2>MENU</h2>
+            <p class="sub-title">Here's a sneak peek of our 3 most popular items.<br>
+            You'll have to come in-person to see the rest!</p>
+        </div>
         <div class="menu">
             <div class="menu-item" id="menu-1">
                 <h3>Worm Stringers</h3>
