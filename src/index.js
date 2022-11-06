@@ -1,6 +1,7 @@
 import { initialLoadComponent } from "./initial";
 import { loadHomeComponent } from "./home";
 import { loadMenuComponent } from "./menu";
+import { loadApplyComponent } from "./apply";
 
 initialLoadComponent();
 
@@ -11,8 +12,14 @@ const addHomeButtonClicker = () => {
 
 const addMenuButtonClicker = () => {
     const menuButton = document.querySelector("#menu-button");
-    menuButton.addEventListener("click", loadMenuComponent)
+    menuButton.addEventListener("click", loadMenuComponent);
+}
+
+const addApplyButtonClicker = () => {
+    const applyButton = document.querySelector("#apply-button");
+    applyButton.addEventListener("click", loadApplyComponent);
 }
 
 addHomeButtonClicker();
 addMenuButtonClicker();
+addApplyButtonClicker();
