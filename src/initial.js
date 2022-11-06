@@ -75,6 +75,6 @@ const initialLoadComponent = () => {
             </div>
         </div>
     `
-}
+};
 
 export { initialLoadComponent };

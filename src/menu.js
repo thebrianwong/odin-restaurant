@@ -23,6 +23,6 @@ const loadMenuComponent = () => {
             </div>
         </div>
     `
-}
+};
 
-export { loadMenuComponent }
+export { loadMenuComponent };

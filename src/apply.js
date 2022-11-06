@@ -14,4 +14,4 @@ const loadApplyComponent = () => {
     `
 }
 
-export { loadApplyComponent }
+export { loadApplyComponent };
