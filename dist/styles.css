@@ -12,6 +12,10 @@ p {
     line-height: 1.25;
 }
 
+a:visited {
+    color: #0000EE;
+}
+
 * {
     border: solid 1px red;
 }
@@ -166,27 +170,6 @@ h1 {
     margin-left: 15px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.contact-container,
-.hours-container {
-    text-align: center;
-    white-space: pre-line;
-}
-
-.contact-container {
-    display: flex;
-}
-
-.contact-container p {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .menu-item,
 .apply-information,
 .credits {
@@ -206,6 +189,23 @@ h1 {
     margin-bottom: 15px;
 }
 
-a:visited {
-    color: #0000EE;
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-container,
+.hours-container {
+    text-align: center;
+    white-space: pre-line;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-container p {
+    margin-top: auto;
+    margin-bottom: auto;
 }
